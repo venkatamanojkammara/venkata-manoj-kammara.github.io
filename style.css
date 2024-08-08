@@ -1,0 +1,145 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+section {
+    padding: 3rem 1rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #222;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff5722;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #555;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #777;
+    margin-top: 2rem;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 5px solid #ff5722;
+}
+
+p, ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.skill-category {
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    color: #ff5722;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+footer p a {
+    color: #ff5722;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #fff;
+}
