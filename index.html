@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venkata Manoj Kammara - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="c:\Users\venka\OneDrive\Documents\Venkata Manoj Portfolio Website\style.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul id="nav-links">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -21,6 +26,7 @@
             </ul>
         </nav>
     </header>
+
 
     <section id="about">
         <h1>Venkata Manoj Kammara</h1>
@@ -226,6 +232,21 @@
                 <p>By analyzing these elements, it becomes clear that leveraging soft power through strategic events and cultural diplomacy can significantly enhance a nation's global standing and economic success.</p>
             </div>
         </div>
+        <br>
+        <div class="interests-container">
+            <div class="interests-category">
+                <h3>Duolingo: Revolutionizing Language Learning and English Proficiency Testing</h3>
+                <p>Duolingo has transformed the landscape of language learning through its strategic design, which effectively employs triggers, variable rewards, and user investment to create a highly engaging and habit-forming app. Its innovative approach to design not only ensures high user retention but also positions Duolingo as a disruptive force in the English proficiency testing market.</p>
+                <p>The key Highlights and Insights of this Case Study are:</p>
+                <ol>
+                    <li><strong>Successful Edtech Strategy:</strong> Duolingo's success can be attributed to its engaging product design and effective application of the Hooked model. By combining triggers, actions, variable rewards, and investments, the app keeps users engaged and encourages consistent use. This approach contrasts with the high customer acquisition costs faced by many edtech companies, highlighting the importance of creating a product that retains users.</li>
+                    <li><strong>Hooked Model Implementation:</strong>  The app uses various triggers, such as personalized push notifications and creative memes, to prompt user engagement. Variable rewards, inspired by psychological research, maintain user interest by offering unpredictable outcomes. Additionally, features like streaks and leagues encourage users to invest time and effort, further enhancing the app's value.</li>
+                    <li><strong>Disruption of English Proficiency Testing:</strong> Duolingo is making waves in the traditional English proficiency testing market with its affordable, accessible, and adaptive online exam. By addressing cost, accessibility, and reliability issues, Duolingo offers a compelling alternative to traditional exams, providing cost savings, convenience, and quicker results.</li>
+                    <li><strong>Business Lessons and Market Impact:</strong> Duolingo's approach offers valuable lessons for other businesses, emphasizing the importance of customer retention, creating habit-forming products, and targeting underserved markets. The company's success demonstrates the potential for innovative design and strategic thinking to disrupt established industries and drive growth.</li>
+                </ol>
+                <p>Through its strategic use of design principles and market disruption, Duolingo exemplifies how understanding user behavior and addressing market needs can lead to significant business success and industry transformation.</p>
+            </div>
+        </div>
     </section>
     <br>
 
@@ -234,5 +255,13 @@
         <p>Location: Proddatur</p>
         <p><a href="https://www.linkedin.com/in/venkata-manoj-kammara/">LinkedIn</a> | <a href="https://github.com/venkatamanojkammara">GitHub</a></p>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
 </body>
 </html>
